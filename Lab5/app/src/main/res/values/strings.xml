@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lab5</string>
+    <string name="heading">Find Your Spirit Animal</string>
+    <string name="find_button">Find</string>
+    <string name="toggle_off">Introvert</string>
+    <string name="toggle_on">Extrovert</string>
+    <string-array name="colors">
+        <item>Pick a Color</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Purple</item>
+    </string-array>
+    <string name="water">Water</string>
+    <string name="air">Air</string>
+    <string name="earth">Earth</string>
+    <string name="fire">Fire</string>
+    <string name="switchLabel">Wild Animals</string>
+    <string name="ToggleButton">ToggleButton</string>
+    <string name="radioHeader">Pick an Element</string>
+    <string name="imgAccesibility">Animal Image</string>
+</resources>
