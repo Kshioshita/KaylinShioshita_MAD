@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Project2ListView</string>
+    <string name="title_activity_listview">listview</string>
+</resources>
