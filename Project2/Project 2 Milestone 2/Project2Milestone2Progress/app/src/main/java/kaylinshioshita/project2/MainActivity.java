@@ -33,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
         myTimePicker.setIs24HourView(true);
         drawingCanvas=(MyView)findViewById(R.id.myView);
 
-        Regimen defaultRegimen=new Regimen();
-        ArrayList<String> defaultSteps("Oil Cleanser");
-        defaultRegimen.setSteps();
+//        Regimen defaultRegimen=new Regimen();
+//        ArrayList<String> defaultSteps("Oil Cleanser");
+//        defaultRegimen.setSteps();
     }
 
     @SuppressLint("NewApi")
