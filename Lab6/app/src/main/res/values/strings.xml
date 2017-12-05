@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string-array name="genre">
+        <item>Pick a Genre</item>
+        <item>Melodrama</item>
+        <item>Romantic Comedy</item>
+        <item>Action</item>
+        <item>Historical</item>
+    </string-array>
+</resources>
