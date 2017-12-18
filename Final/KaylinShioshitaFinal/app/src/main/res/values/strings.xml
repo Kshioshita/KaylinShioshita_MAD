@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Kaylin Shioshita Final</string>
+    <string-array name="locations">
+        <item>The Hill</item>
+        <item>29th Street</item>
+        <item>Pearl Street</item>
+    </string-array>
+    <string name="toggleOn">Meat</string>
+    <string name="toggleOff">Veggie</string>
+    <string name="burrito_builder">Burrito Builder</string>
+    <string name="burrito_name">Burrito Name</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="burrito">Burrito</string>
+    <string name="taco">Taco</string>
+    <string name="salsa">salsa</string>
+    <string name="cheese">cheese</string>
+    <string name="sour_cream">sour cream</string>
+    <string name="guacamole">guacamole</string>
+    <string name="gluten_free">Gluten-free</string>
+    <string name="build">Build</string>
+    <string name="find_burrito">Find Burrito</string>
+    <string name="burrito_type">burritoType</string>
+    <string name="earthbutton">earthButton</string>
+</resources>
