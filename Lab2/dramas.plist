@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Song Joong Ki</key>
+	<dict>
+		<key>Facts</key>
+		<array>
+			<string>September 19, 1985</string>
+			<string>32</string>
+		</array>
+		<key>Dramas</key>
+		<array>
+			<string>Sungkyunkwan Scandal</string>
+			<string>Tree With Deep Roots</string>
+			<string>Descendants of the Sun</string>
+		</array>
+	</dict>
+	<key>Park Bo Young</key>
+	<dict>
+		<key>Facts</key>
+		<array>
+			<string>February 12, 1990</string>
+			<string>27</string>
+		</array>
+		<key>Dramas</key>
+		<array>
+			<string>Oh My Ghost</string>
+			<string>Strong Woman Do Bong Soon </string>
+		</array>
+	</dict>
+</dict>
+</plist>
