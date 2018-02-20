@@ -2,6 +2,47 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Lee Jong Suk</key>
+	<dict>
+		<key>Dramas</key>
+		<array>
+			<string>W</string>
+			<string>I Can Hear Your Voice</string>
+			<string>Doctor Stranger</string>
+			<string>While You Were Sleeping</string>
+			<string>Pinocchio</string>
+		</array>
+	</dict>
+	<key>Park Shin Hye</key>
+	<dict>
+		<key>Dramas</key>
+		<array>
+			<string>Heirs</string>
+			<string>You&apos;re Beautiful</string>
+			<string>Doctors</string>
+			<string>Heartstrings</string>
+			<string>Pinocchio</string>
+		</array>
+	</dict>
+	<key>Park Hyun Sik</key>
+	<dict>
+		<key>Dramas</key>
+		<array>
+			<string>Heirs</string>
+			<string>Hwarang</string>
+			<string>Strong Woman Do Bong Soon</string>
+			<string>Suits</string>
+		</array>
+	</dict>
+	<key>Yoo Seung Ho</key>
+	<dict>
+		<key>Dramas</key>
+		<array>
+			<string>I&apos;m Not a Robot</string>
+			<string>Ruler: Master of the Mask</string>
+			<string>Remember</string>
+		</array>
+	</dict>
 	<key>Song Joong Ki</key>
 	<dict>
 		<key>Facts</key>

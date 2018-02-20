@@ -112,6 +112,9 @@ class ActorDetailViewController: UITableViewController {
         actorDetail.dramas[selectedActor].insert(moveDrama, at: toRow)
     }
     
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Dramas"
+    }
 
     
     // Override to support conditional rearranging of the table view.
