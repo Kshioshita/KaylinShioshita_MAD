@@ -9,6 +9,13 @@
 //Resources
 // Placeholder text for textview
 // https://stackoverflow.com/questions/27652227/text-view-placeholder-swift
+// Scroll View
+// https://stackoverflow.com/questions/28144739/swift-uiscrollview-not-scrolling
+// https://medium.com/@dzungnguyen.hcm/autolayout-for-scrollview-keyboard-handling-in-ios-5a47d73fd023
+// Change Text of Bar Button
+// https://ryanjin.weebly.com/technology/swift-how-to-change-the-title-text-of-a-uibarbuttonitem-in-swift
+// Stop Segue if Condition not selected
+// http://jamesleist.com/ios-swift-tutorial-stop-segue-show-alert-text-box-empty/
 
 import UIKit
 import RealmSwift
