@@ -145,6 +145,7 @@ class AddEntryViewController: UIViewController, UITextViewDelegate {
                 }
             default:
                 print("portrait")
+//                scrollview.contentSize = CGSize(width: screenWidth, height: UIScreen.main.bounds.height)
             }
         default: print("portait")
         }
@@ -199,6 +200,29 @@ class AddEntryViewController: UIViewController, UITextViewDelegate {
     func textViewShouldEndEditing(_ textView: UITextView) -> Bool {
         activeField=textView
         lastOffset=self.scrollview.contentOffset
+        let device=UIScreen.main.traitCollection.userInterfaceIdiom
+        let screenWidth=UIScreen.main.bounds.width
+        switch (device) {
+        case .phone:
+            switch UIDevice.current.orientation{
+            case .landscapeRight:
+                if screenWidth >= 800 {
+                    scrollview.contentSize = CGSize(width: 375, height: 1100)
+                } else{
+                    scrollview.contentSize = CGSize(width: 375, height: 1100)
+                }
+            case .landscapeLeft:
+                if screenWidth >= 800 {
+                    scrollview.contentSize = CGSize(width: 375, height: 1100)
+                } else{
+                    scrollview.contentSize = CGSize(width: 375, height: 1100)
+                }
+            default:
+                print("portrait inside shouldend")
+                scrollview.contentSize = CGSize(width: screenWidth, height: UIScreen.main.bounds.height)
+            }
+        default: print("portait")
+        }
         return true
     }
     func textViewDidBeginEditing(_ textView: UITextView) {
@@ -244,6 +268,7 @@ class AddEntryViewController: UIViewController, UITextViewDelegate {
             })
             
         }
+        
         
     }
     
