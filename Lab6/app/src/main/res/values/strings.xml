@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string-array name="breedgroups">
+        <item>Toy Group</item>
+        <item>Working Group</item>
+        <item>Non-Sporting Group</item>
+        <item>Terrier Group</item>
+    </string-array>
+    <string name="dogimage">Dog Group</string>
+    <string name="petfinder">Petfinder</string>
+</resources>
