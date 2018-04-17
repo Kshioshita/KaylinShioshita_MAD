@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kaylinshioshita.lab7.MainActivity">
+
+
+    <fragment
+        android:id="@+id/era_fragment"
+        android:name="kaylinshioshita.lab7.EraListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_era_list" />
+
+
+</android.support.constraint.ConstraintLayout>
