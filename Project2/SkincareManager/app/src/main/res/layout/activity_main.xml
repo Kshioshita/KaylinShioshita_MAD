@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kaylinshioshita.skincaremanager.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewR1C1"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR3C1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR1C2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/calendarView"
+        app:layout_constraintTop_toTopOf="@id/calendarView" />
+
+    <ImageView
+        android:id="@+id/imageViewR1C2"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR3C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR1C3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR1C1"
+        app:layout_constraintTop_toTopOf="@id/calendarView" />
+
+    <ImageView
+        android:id="@+id/imageViewR1C3"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR3C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR1C4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR1C2"
+        app:layout_constraintTop_toTopOf="@id/calendarView" />
+
+    <ImageView
+        android:id="@+id/imageViewR1C4"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR3C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR1C5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR1C3"
+        app:layout_constraintTop_toTopOf="@id/calendarView" />
+
+    <ImageView
+        android:id="@+id/imageViewR1C5"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR3C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR1C6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR1C4"
+        app:layout_constraintTop_toTopOf="@id/calendarView" />
+
+    <ImageView
+        android:id="@+id/imageViewR1C6"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR3C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR1C7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR1C5"
+        app:layout_constraintTop_toTopOf="@id/calendarView" />
+
+    <ImageView
+        android:id="@+id/imageViewR1C7"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR3C7"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/calendarView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR1C6"
+        app:layout_constraintTop_toTopOf="@id/calendarView" />
+
+    <ImageView
+        android:id="@+id/imageViewR2C1"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewR2C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR2C2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/calendarView"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C1" />
+
+    <ImageView
+        android:id="@+id/imageViewR2C2"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewR2C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR2C3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR2C1"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C1" />
+
+    <ImageView
+        android:id="@+id/imageViewR2C3"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewR2C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR2C4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR2C2"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C2" />
+
+    <ImageView
+        android:id="@+id/imageViewR2C4"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewR3C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR2C5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR2C3"
+        app:layout_constraintTop_toTopOf="@+id/imageViewR1C3" />
+
+    <ImageView
+        android:id="@+id/imageViewR2C5"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewR2C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR2C6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR2C4"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C6" />
+
+    <ImageView
+        android:id="@+id/imageViewR2C6"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewR2C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR2C7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR2C5"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C7" />
+
+    <ImageView
+        android:id="@+id/imageViewR2C7"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewR2C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/calendarView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR2C6"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C7" />
+
+    <ImageView
+        android:id="@+id/imageViewR3C1"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR5C1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR3C2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/calendarView"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C1" />
+
+    <ImageView
+        android:id="@+id/imageViewR3C2"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR5C2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR3C3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR3C1"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C2" />
+
+    <ImageView
+        android:id="@+id/imageViewR3C3"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR5C3"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR3C4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR3C2"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C3" />
+
+    <ImageView
+        android:id="@+id/imageViewR3C4"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR5C4"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR3C5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR3C3"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C4" />
+
+    <ImageView
+        android:id="@+id/imageViewR3C5"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR5C5"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR3C6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR3C4"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C5" />
+
+    <ImageView
+        android:id="@+id/imageViewR3C6"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR5C6"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR3C7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR3C5"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C6" />
+
+    <ImageView
+        android:id="@+id/imageViewR3C7"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewR5C7"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/calendarView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR3C6"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR1C7" />
+
+    <ImageView
+        android:id="@+id/imageViewR4C5"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR4C6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR4C4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewR4C2"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR4C3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR4C1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewR4C3"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR4C4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR4C2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewR4C4"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR4C5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR4C3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewR4C6"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR4C7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR4C5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewR4C7"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/calendarView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR4C6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewR4C1"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR4C2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/calendarView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewR5C1"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="210dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR5C2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/calendarView"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR3C1" />
+
+    <ImageView
+        android:id="@+id/imageViewR5C2"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="210dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR5C3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR5C1"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR3C2" />
+
+    <ImageView
+        android:id="@+id/imageViewR5C3"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="210dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR5C4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR5C2"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR3C3" />
+
+    <ImageView
+        android:id="@+id/imageViewR5C4"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="210dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR5C5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR5C3"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR3C4" />
+
+    <ImageView
+        android:id="@+id/imageViewR5C5"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="210dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR5C6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR5C4"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR3C5" />
+
+    <ImageView
+        android:id="@+id/imageViewR5C6"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="210dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewR5C7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR5C5"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR3C6" />
+
+    <ImageView
+        android:id="@+id/imageViewR5C7"
+        android:layout_width="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="210dp"
+        android:src="@drawable/condition0"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/calendarView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewR5C6"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewR3C7" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
