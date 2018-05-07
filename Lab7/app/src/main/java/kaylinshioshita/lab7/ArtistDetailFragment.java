@@ -120,6 +120,9 @@ public class ArtistDetailFragment extends Fragment implements  View.OnClickListe
                 if (!artistName.isEmpty()){
                     Artist.artistslist[(int)eraId].getArtists().add(artistName);
                     ArtistDetailFragment.this.adapter.notifyDataSetChanged();
+                    Log.d("addartist", "here: ");
+                    Artist.artistslist[(int)eraId].storeArtists(getActivity(),(int)eraId);
+                    Log.d("addartist", "here: ");
                 }
             }
         });
@@ -131,6 +134,7 @@ public class ArtistDetailFragment extends Fragment implements  View.OnClickListe
         });
         dialog.show();
     }
+
 
 
     @Override
@@ -152,6 +156,7 @@ public class ArtistDetailFragment extends Fragment implements  View.OnClickListe
             AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo)item.getMenuInfo();
             Artist.artistslist[(int)eraId].getArtists().remove(info.position);
             ArtistDetailFragment.this.adapter.notifyDataSetChanged();
+            Artist.artistslist[(int)eraId].storeArtists(getActivity(),(int)eraId);
         }
         return true;
     }
